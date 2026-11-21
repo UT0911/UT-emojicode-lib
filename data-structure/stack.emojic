@@ -1,20 +1,20 @@
 💭🔜
-stack
-リストを使ってstackを実装
-stackに入れられる型:数値型🔡
-実行例
-stackの用意
-🆕⏫❗️➡️ S
-push:stackの一番上に追加する
-⬇️S 数値❗️
-top:stackの一番上の要素を返す
-👀S❗️
-pop:stackの一番上の要素を削除
-⬆️S❗️
-size:stackの大きさを返す
-♎S❗️
-empty:stackが空かどうかを返す
-🈳S❗️
+  stack
+  リストを使ってstackを実装
+  stackに入れられる型:数値型🔡
+  実行例
+  stackの用意
+  🆕⏫❗️➡️ S
+  push:stackの一番上に追加する
+  ⬇️S 数値❗️
+  top:stackの一番上の要素を返す
+  👀S❗️
+  pop:stackの一番上の要素を削除
+  ⬆️S❗️
+  size:stackの大きさを返す
+  ♎S❗️
+  empty:stackが空かどうかを返す
+  🈳S❗️
 🔚💭
 
 📗stack📗
