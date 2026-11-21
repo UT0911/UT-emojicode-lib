@@ -1,0 +1,92 @@
+💭🔜
+queue
+リストを使ってqueueを実装
+queueに入れられる型:数値型🔡
+実行例
+queueの用意
+🆕⏬❗️➡️ S
+push:queueの一番上に追加する
+⬇S 数値❗️
+front:queueの一番下の要素を返す
+👀S❗️
+pop:queueの一番下の要素を削除
+⬆S❗️
+size:queueの大きさを返す
+♎S❗️
+empty:queueが空かどうかを返す
+🈳S❗️
+🔚💭
+
+🐇⏬🍇
+  💭インスタンス変数
+  🖍🆕 queue 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕🍇
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍queue
+  🍉
+  
+  💭メソッド
+  💭push
+  ❗️⬇a🔢🍇
+    🐻 queue a❗️
+  🍉
+
+  💭front
+  ❗️👀➡️🔢🍇
+    ↩️🐽queue 0❗️
+  🍉
+  
+  💭pop
+  ❗️⬆🍇
+    🐨 queue 0❗️
+  🍉
+
+  💭size
+  ❗️♎➡️🔢🍇
+    ↩️📏queue❓
+  🍉
+
+  💭empty
+  ❗️🈳➡️👌🍇
+    ↩️📏queue❓🙌0
+  🍉
+  
+🍉
+
+💭🔜
+💭以下,使用例
+
+🏁🍇
+  
+  💭queueの用意
+  🆕⏬❗️➡️ q
+
+  💭数値をpush
+  ⬇q 11❗️
+  ⬇q 13❗️
+  ⬇q 17❗️
+  
+  💭queueが空でない間繰り返す
+  🔁❎🈳q❗️❗️🍇
+    queueの大きさを出力
+    😀🔤size : 🧲♎q❗️🧲🔤❗️
+    
+    queueのfrontを読み出力
+    😀🔤front : 🧲👀q❗️🧲🔤❗️
+    
+    💭queueからpop
+    ⬆q❗️
+    
+    💭queueが空かどうか(empty)
+    ↪️🈳q❗️🍇
+      😀🔤queue is empty.🔤❗️
+    🍉🙅🍇
+      😀🔤queue is not empty.🔤❗️
+    🍉
+  🍉
+  
+  
+🍉
+
+🔚💭
