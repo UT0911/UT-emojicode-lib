@@ -5,15 +5,15 @@ stackに入れられる型:数値型🔡
 実行例
 stackの用意
 🆕⏫❗️➡️ S
-push
+push:stackに追加する
 ⬇S 数値❗️
-top
+top:stackの一番上の要素を返す
 👀S❗️
-pop
+pop:stackの一番上の要素を削除
 ⬆S❗️
-size
+size:stackの大きさを返す
 ♎S❗️
-empty
+empty:stackが空かどうかを返す
 🈳S❗️
 🔚💭
 
