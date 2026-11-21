@@ -20,3 +20,5 @@ emojicodeで使える関数,closure,データ構造などを保存しておく�
 
 * [type](https://github.com/UT0911/UT-emojicode-lib/tree/main/type)
     * [pair.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/type/pair.emojic)
+
+* [template.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/template.emojic)
