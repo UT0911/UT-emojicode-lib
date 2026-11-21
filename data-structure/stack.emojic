@@ -6,7 +6,7 @@
   stackの用意
   🆕⏫🐚型🍆❗️➡️ S
   push:stackの一番上に追加する
-  ⬇️S 数値❗️
+  ⬇️S 要素❗️
   top:stackの一番上の要素を返す
   👀S❗️
   pop:stackの一番上の要素を削除

@@ -6,7 +6,7 @@
   queueの用意
   🆕⏬🐚型🍆❗️➡️ q
   push:queueの一番上に追加する
-  ⬇️️S 数値❗️
+  ⬇️️S 要素❗️
   front:queueの一番下の要素を返す
   👀S❗️
   pop:queueの一番下の要素を削除
