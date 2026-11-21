@@ -6,15 +6,15 @@
   queueの用意
   🆕⏬🐚型🍆❗️➡️ q
   push:queueの一番上に追加する
-  ⬇️️S 要素❗️
+  ⬇️️q 要素❗️
   front:queueの一番下の要素を返す
-  👀S❗️
+  👀q❗️
   pop:queueの一番下の要素を削除
-  ⬆️S❗️
+  ⬆️q❗️
   size:queueの大きさを返す
-  ♎S❗️
+  ♎q❗️
   empty:queueが空かどうかを返す
-  🈳S❗️
+  🈳q❗️
 🔚💭
 
 📗queue📗
