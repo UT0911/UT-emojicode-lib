@@ -14,6 +14,8 @@
   ⬆️mh❗️
   size:min_heapの大きさを返す
   ♎q❗️
+  empty:min_heapが空かどうか返す
+  🈳pq❗️
 🔚💭
 
 📗min-heap📗
@@ -74,6 +76,11 @@
   📗size📗
   ❗️♎➡️🔢🍇
     ↩️count
+  🍉
+
+  📗empty📗
+  ❗️🈳➡️👌🍇
+    ↩️count🙌0
   🍉
   
 🍉
