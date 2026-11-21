@@ -5,6 +5,8 @@ emojicodeで使える関数,closure,データ構造などを保存しておく�
 
 ## ディレクトリ構成
 * [data-structure](https://github.com/UT0911/UT-emojicode-lib/tree/main/data-structure)
+    * [max_heap.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/max_heap.emojic)
+    * [min_heap.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/min_heap.emojic)
     * [queue.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/queue.emojic)
     * [stack.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/stack.emojic)
 
