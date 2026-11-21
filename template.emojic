@@ -1,12 +1,97 @@
 💭最終更新:2026/11/21
 
-
-💭pair型
+📗pair📗
 🕊🅿️🍇
   🖍🆕 first 🔢
   🖍🆕 second 🔢
 
   🆕 🍼 first 🔢 🍼 second 🔢 🍇🍉
+
+  📗first取得📗
+  ❗️♂️➡️🔢🍇
+    ↩️first
+  🍉
+
+  📗second取得📗
+  ❗️♀️➡️🔢🍇
+    ↩️second
+  🍉
+🍉
+
+📗stack📗
+🐇⏫🍇
+  💭インスタンス変数
+  🖍🆕 stack 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕🍇
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍stack
+  🍉
+  
+  💭メソッド
+  📗push📗
+  ❗️⬇️a🔢🍇
+    🐻 stack a❗️
+  🍉
+
+  📗top📗
+  ❗️👀➡️🔢🍇
+    ↩️🐽stack 📏stack❓➖1❗️
+  🍉
+  
+  📗pop📗
+  ❗️⬆️🍇
+    🐼 stack❗️
+  🍉
+
+  📗size📗
+  ❗️♎➡️🔢🍇
+    ↩️📏stack❓
+  🍉
+
+  📗empty📗
+  ❗️🈳➡️👌🍇
+    ↩️📏stack❓🙌0
+  🍉
+  
+🍉
+
+📗queue📗
+🐇⏬🍇
+  💭インスタンス変数
+  🖍🆕 queue 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕🍇
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍queue
+  🍉
+  
+  💭メソッド
+  📗push📗
+  ❗️⬇️️a🔢🍇
+    🐻 queue a❗️
+  🍉
+
+  📗front📗
+  ❗️👀➡️🔢🍇
+    ↩️🐽queue 0❗️
+  🍉
+  
+  📗pop📗
+  ❗️⬆️🍇
+    🐨 queue 0❗️
+  🍉
+
+  📗size📗
+  ❗️♎➡️🔢🍇
+    ↩️📏queue❓
+  🍉
+
+  📗empty📗
+  ❗️🈳➡️👌🍇
+    ↩️📏queue❓🙌0
+  🍉
+  
 🍉
 
 🏁🍇
