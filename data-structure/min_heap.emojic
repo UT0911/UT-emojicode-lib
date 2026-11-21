@@ -1,0 +1,117 @@
+💭🔜
+  min_heap
+  リストを使ってmin_heapを実装
+  入れられる型:数値型🔢
+
+  実行例
+  min_heapの用意
+  🆕🌴❗️➡️mh
+  push:min_heapに追加し木の並びを整理
+  ⬇️mh 要素❗️
+  top:min_heapの一番小さい値の要素(木の根)を返す
+  👀q❗️
+  pop:min_heapの一番小さい値の要素(木の根)を削除
+  ⬆️mh❗️
+  size:min_heapの大きさを返す
+  ♎q❗️
+🔚💭
+
+📗min-heap📗
+🐇🌲🍇
+  💭インスタンス変数
+  🖍🆕 min_heap 🍨🐚🔢🍆
+  🖍🆕 count 🔢
+
+  💭コンストラクタ
+  🆕🍇
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍min_heap
+    🐻min_heap 9223372036854775807❗️
+    0➡️🖍count
+  🍉
+  
+  💭メソッド
+  📗push📗
+  ❗️⬇️a🔢🍇
+    count➕1➡️🖍🆕i
+    🐻min_heap 0❗️
+    🔁 ❎i🙌1❗️🤝🐽min_heap i➗2❗️▶️a  🍇
+      🐽min_heap i➗2❗️➡️🐽min_heap i❗️
+      i⬅️➗2
+    🍉
+    a➡️🐽min_heap i❗️
+    count⬅️➕1
+  🍉
+
+  📗top📗
+  ❗️👀➡️🔢🍇
+    ↩️🐽min_heap 1❗️
+  🍉
+
+  📗pop📗
+  ❗️⬆️🍇
+    🐽min_heap count❗️➡️🐽min_heap 1❗️
+    1➡️🖍🆕i
+    🔁 🤜i✖️2◀️🙌count🤝🐽min_heap i❗️▶️🐽min_heap i✖️2❗️🤛
+      👐 🤜i✖️2➕1◀️🙌count🤝🐽min_heap i❗️▶️🐽min_heap i✖️2➕1❗️🤛 🍇
+      
+      ↪️i✖️2➕1◀️🙌count🤝🐽min_heap i✖️2❗️▶️🙌🐽min_heap i✖️2➕1❗️🍇
+        🐽min_heap i✖️2➕1❗️➡️tmp
+        🐽min_heap i❗️➡️🐽min_heap i✖️2➕1❗️
+        tmp➡️🐽min_heap i❗️
+        i✖️2➕1➡️🖍i
+      🍉🙅🍇
+        🐽min_heap i✖️2❗️➡️tmp
+        🐽min_heap i❗️➡️🐽min_heap i✖️2❗️
+        tmp➡️🐽min_heap i❗️
+        i✖️2➡️🖍i
+      🍉      
+    🍉
+    
+    🐼 min_heap❗️
+    count⬅️➖1
+  🍉
+
+  📗size📗
+  ❗️♎➡️🔢🍇
+    ↩️count
+  🍉
+  
+🍉
+
+💭以下,使用例
+
+💭🔜
+
+🏁🍇
+  💭min_heap用意
+  🆕🌲❗️➡️mh
+  
+  💭要素追加
+  ⬇️mh 8❗️
+
+  💭大きさ出力
+  😀🔤size : 🧲♎mh❗️🧲🔤❗️
+
+  💭top出力
+  😀🔤top : 🧲👀mh❗️🧲🔤❗️
+
+  ⬇️mh 4❗️
+  😀🔤size : 🧲♎mh❗️🧲🔤❗️
+  😀🔤top : 🧲👀mh❗️🧲🔤❗️
+  ⬇️mh 3❗️
+  ⬇️mh 5❗️
+
+  💭top削除
+  ⬆️mh ❗️
+
+  😀🔤size : 🧲♎mh❗️🧲🔤❗️
+  😀🔤top : 🧲👀mh❗️🧲🔤❗️
+  ⬇️mh 2❗️
+  ⬇️mh 8❗️
+  ⬆️mh ❗️
+  😀🔤size : 🧲♎mh❗️🧲🔤❗️
+  😀🔤top : 🧲👀mh❗️🧲🔤❗️
+  
+🍉
+
+🔚💭
