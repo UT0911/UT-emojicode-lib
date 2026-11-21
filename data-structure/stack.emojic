@@ -5,7 +5,7 @@ stackに入れられる型:数値型🔡
 実行例
 stackの用意
 🆕⏫❗️➡️ S
-push:stackに追加する
+push:stackの一番上に追加する
 ⬇S 数値❗️
 top:stackの一番上の要素を返す
 👀S❗️
