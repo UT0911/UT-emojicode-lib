@@ -1,0 +1,92 @@
+💭🔜
+stack
+リストを使ってstackを実装
+stackに入れられる型:数値型🔡
+実行例
+stackの用意
+🆕⏫❗️➡️ S
+push
+⬇S 数値❗️
+top
+👀S❗️
+pop
+⬆S❗️
+size
+♎S❗️
+empty
+🈳S❗️
+🔚💭
+
+🐇⏫🍇
+  💭インスタンス変数
+  🖍🆕 stack 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕🍇
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍stack
+  🍉
+  
+  💭メソッド
+  💭push
+  ❗️⬇a🔢🍇
+    🐻 stack a❗️
+  🍉
+
+  💭top
+  ❗️👀➡️🔢🍇
+    ↩️🐽stack 📏stack❓➖1❗️
+  🍉
+  
+  💭pop
+  ❗️⬆🍇
+    🐼 stack❗️
+  🍉
+
+  💭size
+  ❗️♎➡️🔢🍇
+    ↩️📏stack❓
+  🍉
+
+  💭empty
+  ❗️🈳➡️👌🍇
+    ↩️📏stack❓🙌0
+  🍉
+  
+🍉
+
+
+💭🔜
+💭以下,使用例
+
+🏁🍇
+  
+  💭stackの用意
+  🆕⏫❗️➡️ S
+
+  💭数値をpush
+  ⬇S 11❗️
+  ⬇S 13❗️
+  ⬇S 17❗️
+  
+  💭stackが空でない間繰り返す
+  🔁❎🈳S❗️❗️🍇
+    💭stackの大きさを出力
+    😀🔤size : 🧲♎S❗️🧲🔤❗️
+
+    💭stackのtopを読み出力
+    😀🔤top : 🧲👀S❗️🧲🔤❗️
+
+    💭stackからpop
+    ⬆S❗️
+    
+    💭stackが空かどうか(empty)
+    ↪️🈳S❗️🍇
+      😀🔤stack is empty.🔤❗️
+    🍉🙅🍇
+      😀🔤stack is not empty.🔤❗️
+    🍉
+  🍉
+  
+🍉
+
+🔚💭
