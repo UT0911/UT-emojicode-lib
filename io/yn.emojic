@@ -1,0 +1,31 @@
+💭🔜
+bool型👌がtrue/falseならyes/noを出力する
+ynはYes/No YNはYES/NO
+入力:bool型👌
+返り値:無し◼️
+実行例
+⁉️yn b❗️
+⁉️YN b❗️
+🔚💭
+
+🏁🍇
+
+💭yn
+  🍇b👌➡️◼️
+    ↪️b🍇
+      😀🔤Yes🔤❗️
+    🍉🙅🍇
+      😀🔤No🔤❗️
+    🍉
+  🍉➡️yn
+
+  💭YN
+  🍇b👌➡️◼️
+    ↪️b🍇
+      😀🔤YES🔤❗️
+    🍉🙅🍇
+      😀🔤NO🔤❗️
+    🍉
+  🍉➡️YN
+
+🍉
