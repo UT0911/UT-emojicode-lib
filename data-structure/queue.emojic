@@ -6,11 +6,11 @@ queueに入れられる型:数値型🔡
 queueの用意
 🆕⏬❗️➡️ S
 push:queueの一番上に追加する
-⬇S 数値❗️
+⬇️️S 数値❗️
 front:queueの一番下の要素を返す
 👀S❗️
 pop:queueの一番下の要素を削除
-⬆S❗️
+⬆️S❗️
 size:queueの大きさを返す
 ♎S❗️
 empty:queueが空かどうかを返す
@@ -28,7 +28,7 @@ empty:queueが空かどうかを返す
   
   💭メソッド
   💭push
-  ❗️⬇a🔢🍇
+  ❗️⬇️️a🔢🍇
     🐻 queue a❗️
   🍉
 
@@ -38,7 +38,7 @@ empty:queueが空かどうかを返す
   🍉
   
   💭pop
-  ❗️⬆🍇
+  ❗️⬆️🍇
     🐨 queue 0❗️
   🍉
 
@@ -63,20 +63,20 @@ empty:queueが空かどうかを返す
   🆕⏬❗️➡️ q
 
   💭数値をpush
-  ⬇q 11❗️
-  ⬇q 13❗️
-  ⬇q 17❗️
+  ⬇️️q 11❗️
+  ⬇️️q 13❗️
+  ⬇️️q 17❗️
   
   💭queueが空でない間繰り返す
   🔁❎🈳q❗️❗️🍇
-    queueの大きさを出力
+    💭queueの大きさを出力
     😀🔤size : 🧲♎q❗️🧲🔤❗️
     
-    queueのfrontを読み出力
+    💭queueのfrontを読み出力
     😀🔤front : 🧲👀q❗️🧲🔤❗️
     
     💭queueからpop
-    ⬆q❗️
+    ⬆️q❗️
     
     💭queueが空かどうか(empty)
     ↪️🈳q❗️🍇
