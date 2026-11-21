@@ -17,6 +17,7 @@ empty:stackが空かどうかを返す
 🈳S❗️
 🔚💭
 
+📗stack📗
 🐇⏫🍇
   💭インスタンス変数
   🖍🆕 stack 🍨🐚🔢🍆
@@ -27,36 +28,36 @@ empty:stackが空かどうかを返す
   🍉
   
   💭メソッド
-  💭push
+  📗push📗
   ❗️⬇️a🔢🍇
     🐻 stack a❗️
   🍉
 
-  💭top
+  📗top📗
   ❗️👀➡️🔢🍇
     ↩️🐽stack 📏stack❓➖1❗️
   🍉
   
-  💭pop
+  📗pop📗
   ❗️⬆️🍇
     🐼 stack❗️
   🍉
 
-  💭size
+  📗size📗
   ❗️♎➡️🔢🍇
     ↩️📏stack❓
   🍉
 
-  💭empty
+  📗empty📗
   ❗️🈳➡️👌🍇
     ↩️📏stack❓🙌0
   🍉
   
 🍉
 
+💭以下,使用例
 
 💭🔜
-💭以下,使用例
 
 🏁🍇
   

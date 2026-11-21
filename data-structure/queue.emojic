@@ -1,22 +1,23 @@
 💭🔜
-queue
-リストを使ってqueueを実装
-queueに入れられる型:数値型🔡
-実行例
-queueの用意
-🆕⏬❗️➡️ S
-push:queueの一番上に追加する
-⬇️️S 数値❗️
-front:queueの一番下の要素を返す
-👀S❗️
-pop:queueの一番下の要素を削除
-⬆️S❗️
-size:queueの大きさを返す
-♎S❗️
-empty:queueが空かどうかを返す
-🈳S❗️
+  queue
+  リストを使ってqueueを実装
+  queueに入れられる型:数値型🔡
+  実行例
+  queueの用意
+  🆕⏬❗️➡️ S
+  push:queueの一番上に追加する
+  ⬇️️S 数値❗️
+  front:queueの一番下の要素を返す
+  👀S❗️
+  pop:queueの一番下の要素を削除
+  ⬆️S❗️
+  size:queueの大きさを返す
+  ♎S❗️
+  empty:queueが空かどうかを返す
+  🈳S❗️
 🔚💭
 
+📗queue📗
 🐇⏬🍇
   💭インスタンス変数
   🖍🆕 queue 🍨🐚🔢🍆
@@ -27,35 +28,36 @@ empty:queueが空かどうかを返す
   🍉
   
   💭メソッド
-  💭push
+  📗push📗
   ❗️⬇️️a🔢🍇
     🐻 queue a❗️
   🍉
 
-  💭front
+  📗front📗
   ❗️👀➡️🔢🍇
     ↩️🐽queue 0❗️
   🍉
   
-  💭pop
+  📗pop📗
   ❗️⬆️🍇
     🐨 queue 0❗️
   🍉
 
-  💭size
+  📗size📗
   ❗️♎➡️🔢🍇
     ↩️📏queue❓
   🍉
 
-  💭empty
+  📗empty📗
   ❗️🈳➡️👌🍇
     ↩️📏queue❓🙌0
   🍉
   
 🍉
 
-💭🔜
 💭以下,使用例
+
+💭🔜
 
 🏁🍇
   
