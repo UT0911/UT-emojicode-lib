@@ -1,0 +1,94 @@
+💭最終更新:2026/11/21
+
+
+💭pair型
+🕊🅿️🍇
+  🖍🆕 first 🔢
+  🖍🆕 second 🔢
+
+  🆕 🍼 first 🔢 🍼 second 🔢 🍇🍉
+🍉
+
+🏁🍇
+  💭関数,closure一覧
+
+  💭文字列数列を数値型数列にして返すtolist by Un_titled
+  💭https://github.com/Rieul0406/Un_titled_Emojicode_Library/blob/main/io/tolist.emojic
+  🍇 s 🔡 ➡️ 🍨🐚🔢🍆
+    🔫 s 🔤 🔤❗️ ➡️ list
+    🆕🍨🐚🔢🍆❗️ ➡️ 🖍️🆕 res
+    🔂 x list 🍇
+      🐻 res 🍺🔢 x 10 ❗️❗️
+    🍉
+    ↩️ res
+  🍉 ➡️ tolist
+
+  💭max
+  🍇a🔢b🔢➡️🔢
+    ↪️a▶️b🍇
+      ↩️a
+    🍉
+    🙅🍇
+      ↩️b
+    🍉
+  🍉 ➡️ max
+
+  💭min
+  🍇a🔢b🔢➡️🔢
+    ↪️a◀️b🍇
+      ↩️a
+    🍉
+    🙅🍇
+      ↩️b
+    🍉
+  🍉 ➡️ min
+
+  💭gcd
+  🍇🎍🥡a🔢b🔢➡️🔢
+    a➡️🖍🆕c
+    b➡️🖍🆕d
+    🔁❎c🙌d❗️🍇
+      ↪️c▶️d🍇
+        c⬅️➖d
+      🍉
+      🙅↪️c◀️d🍇
+        d⬅️➖c
+      🍉
+    🍉
+    ↩️c
+  🍉➡️gcd
+
+  💭lcm
+  🍇a🔢b🔢➡️🔢
+    ↩️a✖️b➗⁉️gcd a b❗️
+  🍉➡️lcm
+
+  💭1文字ずつ取り出した文字列を出力
+  🍇S 🍨🐚🔡🍆➡️◼️
+    🔂s S🍇
+      👄s❗️
+    🍉
+    😀🔤🔤❗️
+  🍉➡️strOut
+
+  💭yn
+  🍇b👌➡️◼️
+    ↪️b🍇
+      😀🔤Yes🔤❗️
+    🍉🙅🍇
+      😀🔤No🔤❗️
+    🍉
+  🍉➡️yn
+
+  💭YN
+  🍇b👌➡️◼️
+    ↪️b🍇
+      😀🔤YES🔤❗️
+    🍉🙅🍇
+      😀🔤NO🔤❗️
+    🍉
+  🍉➡️YN
+  
+  💭関数,closure一覧終わり 
+
+🍉
