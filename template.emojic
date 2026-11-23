@@ -1,5 +1,5 @@
 💭Library : https://github.com/UT0911/UT-emojicode-lib
-💭最終更新:2026/11/22
+💭最終更新:2026/11/23
 
 📗pair📗
 🕊🅿️🍇
@@ -244,7 +244,7 @@
   🍉 ➡️ max
 
   💭min
-  🍇a🔢b🔢➡️🔢
+  🍇🎍🥡a🔢b🔢➡️🔢
     ↪️a◀️b🍇
       ↩️a
     🍉
@@ -298,13 +298,26 @@
       😀🔤NO🔤❗️
     🍉
   🍉➡️YN
-
+  
   💭数値比較関数
   🍇 a 🔢 b 🔢 ➡️ 🔢 ↩️ a ➖ b 🍉➡️numCmp
   
   💭文字列比較関数
-  🍇 a 🔡 b 🔡 ➡️ 🔢 ↩️ ↔️ a b❗️ 🍉➡️strCmp
-  
-  💭関数,closure一覧終わり 
+  🍇 a 🔡 b 🔡 ➡️ 🔢
+    🎶a❗️➡️c
+    🎶b❗️➡️d
+    📏c❓➡️aLen
+    📏d❓➡️bLen
 
+    🔂i🆕⏩0 ⁉️min aLen bLen❗️❗️🍇
+      ↪️❎↔️🐽c i❗️ 🐽d i❗️❗️🙌0❗️🍇
+        ↩️🔋↔️🐽c i❗️ 🐽d i❗️❗️❗️
+      🍉
+    🍉
+    
+    ↩️ 🔋↔️ a b❗️❗️ 
+  🍉➡️strCmp
+  
+  💭関数,closure一覧終わり
+  
 🍉
