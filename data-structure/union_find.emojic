@@ -1,0 +1,135 @@
+💭🔜
+  unionfind
+  
+  実行例
+  unionfindの用意
+  🆕👽要素数❗️➡️UF
+  merge:A,Bを結合
+  ➰UF A B❗️
+  same:A,Bが連結か返す
+  🚻UF A B❗️
+  leader:Aの連結元を返す
+  🕵UF A❗️
+  size:Aの連結成分の大きさを返す
+  ♎UF A❗️
+🔚💭
+
+📗Union Find📗
+🐇 👽 🍇
+  💭インスタンス変数
+  🖍🆕 parent 🍨🐚🔢🍆
+  🖍🆕 rank 🍨🐚🔢🍆
+  🖍🆕 count 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕 n 🔢🍇
+    🆕🍨🐚🔢🍆0 n❗️ ➡️ 🖍parent
+    🆕🍨🐚🔢🍆0 n❗️ ➡️ 🖍rank
+    🆕🍨🐚🔢🍆1 n❗️ ➡️ 🖍count
+
+    🔂i🆕⏩0 n❗️🍇
+      i➡️🐽parent i❗️
+    🍉
+  🍉
+
+  📗root📗
+  🔒❗️ 🥥 x🔢➡️🔢 🍇
+    x➡️🖍🆕y
+    🔁 ❎🐽parent y❗️🙌y❗️🍇
+      🐽parent y❗️➡️🖍y
+    🍉
+    ↩️y
+  🍉
+
+  📗merge📗
+  ❗️➰x🔢y🔢 🍇
+    🥥👇x❗️➡️xRoot
+    🥥👇y❗️➡️yRoot
+
+    ↪️xRoot🙌yRoot🍇
+      ↩️↩️
+    🍉
+
+    ↪️🐽rank xRoot❗️◀️🐽rank yRoot❗️🍇
+      yRoot➡️🐽parent xRoot❗️
+      🐽count xRoot❗️➕🐽count yRoot❗️➡️🐽count yRoot❗️
+    🍉
+    🙅🍇
+      xRoot➡️🐽parent yRoot❗️
+      ↪️🐽rank xRoot❗️🙌🐽rank yRoot❗️🍇
+        🐽rank xRoot❗️➕1➡️🐽rank xRoot❗️
+      🍉
+      🐽count xRoot❗️➕🐽count yRoot❗️➡️🐽count xRoot❗️
+    🍉
+  🍉
+
+  📗same📗
+  ❗️ 🚻x🔢y🔢➡️👌 🍇
+    ↩️🥥👇x❗️🙌🥥👇y❗️
+  🍉
+
+  📗leader📗
+  ❗️ 🕵x🔢➡️🔢 🍇
+    ↩️🐽parent x❗️
+  🍉
+
+  📗size📗
+  ❗️ ♎x🔢➡️🔢 🍇
+    ↩️🐽count 🥥👇x❗️❗️
+  🍉 
+  
+🍉
+
+💭以下,使用例
+
+💭🔜
+
+🏁🍇
+  
+  💭unionfindの用意
+  🆕👽5❗️➡️UF
+
+  💭merge
+  ➰UF 0 1❗️
+  ➰UF 2 3❗️
+  ➰UF 2 4❗️
+  
+  💭連結か調べる
+  💭0と1は連結
+  ↪️🚻UF 0 1❗️🍇
+    😀🔤Same connected component.🔤❗️
+  🍉
+  🙅🍇
+    😀🔤Different connected components.🔤❗️
+  🍉
+
+  💭1と2は連結でない
+  ↪️🚻UF 1 2❗️🍇
+    😀🔤Same connected component.🔤❗️
+  🍉
+  🙅🍇
+    😀🔤Different connected components.🔤❗️
+  🍉
+
+  💭3と4は2によって連結
+  ↪️🚻UF 3 4❗️🍇
+    😀🔤Same connected component.🔤❗️
+  🍉
+  🙅🍇
+    😀🔤Different connected components.🔤❗️
+  🍉
+
+  💭1の連結元は0
+  😀🔡🕵UF 1❗️❗️❗️
+  
+  💭4の連結元は2
+  😀🔡🕵UF 4❗️❗️❗️
+
+  💭連結成分の個数を調べる
+  😀🔡♎UF 0❗️❗️❗️
+  😀🔡♎UF 2❗️❗️❗️
+  😀🔡♎UF 3❗️❗️❗️
+  
+🍉
+
+🔚💭
