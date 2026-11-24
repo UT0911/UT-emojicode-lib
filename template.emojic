@@ -219,6 +219,72 @@
   
 🍉
 
+📗Union Find📗
+🐇 👽 🍇
+  💭インスタンス変数
+  🖍🆕 parent 🍨🐚🔢🍆
+  🖍🆕 rank 🍨🐚🔢🍆
+  🖍🆕 count 🍨🐚🔢🍆
+
+  💭コンストラクタ
+  🆕 n 🔢🍇
+    🆕🍨🐚🔢🍆0 n❗️ ➡️ 🖍parent
+    🆕🍨🐚🔢🍆0 n❗️ ➡️ 🖍rank
+    🆕🍨🐚🔢🍆1 n❗️ ➡️ 🖍count
+
+    🔂i🆕⏩0 n❗️🍇
+      i➡️🐽parent i❗️
+    🍉
+  🍉
+
+  📗root📗
+  🔒❗️ 🥥 x🔢➡️🔢 🍇
+    x➡️🖍🆕y
+    🔁 ❎🐽parent y❗️🙌y❗️🍇
+      🐽parent y❗️➡️🖍y
+    🍉
+    ↩️y
+  🍉
+
+  📗merge📗
+  ❗️➰x🔢y🔢 🍇
+    🥥👇x❗️➡️xRoot
+    🥥👇y❗️➡️yRoot
+
+    ↪️xRoot🙌yRoot🍇
+      ↩️↩️
+    🍉
+
+    ↪️🐽rank xRoot❗️◀️🐽rank yRoot❗️🍇
+      yRoot➡️🐽parent xRoot❗️
+      🐽count xRoot❗️➕🐽count yRoot❗️➡️🐽count yRoot❗️
+    🍉
+    🙅🍇
+      xRoot➡️🐽parent yRoot❗️
+      ↪️🐽rank xRoot❗️🙌🐽rank yRoot❗️🍇
+        🐽rank xRoot❗️➕1➡️🐽rank xRoot❗️
+      🍉
+      🐽count xRoot❗️➕🐽count yRoot❗️➡️🐽count xRoot❗️
+    🍉
+  🍉
+
+  📗same📗
+  ❗️ 🚻x🔢y🔢➡️👌 🍇
+    ↩️🥥👇x❗️🙌🥥👇y❗️
+  🍉
+
+  📗leader📗
+  ❗️ 🕵x🔢➡️🔢 🍇
+    ↩️🐽parent x❗️
+  🍉
+
+  📗size📗
+  ❗️ ♎x🔢➡️🔢 🍇
+    ↩️🐽count 🥥👇x❗️❗️
+  🍉 
+  
+🍉
+
 🏁🍇
   💭関数,closure一覧
 
