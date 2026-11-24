@@ -9,6 +9,7 @@ emojicodeで使える関数,closure,データ構造などを保存しておく�
     * [min_heap.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/min_heap.emojic)
     * [queue.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/queue.emojic)
     * [stack.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/stack.emojic)
+    * [union_find.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/data-structure/union_find.emojic)
 
 * [io](https://github.com/UT0911/UT-emojicode-lib/tree/main/io)
     * [strOut.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/io/strOut.emojic)
