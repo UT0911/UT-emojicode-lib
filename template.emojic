@@ -1,5 +1,5 @@
 💭Library : https://github.com/UT0911/UT-emojicode-lib
-💭最終更新:2026/11/24
+💭最終更新:2026/11/25
 
 📗pair📗
 🕊🅿️🍇
@@ -395,6 +395,10 @@
     🍉
     
   🍉➡️strCmp
+
+  🍇 a 🔢 b 🔢 ➡️ 🔢
+    ↩️🔢🏂 💯a❗️ 💯b❗️❗️❗️
+  🍉➡️pow
   
   💭関数,closure一覧終わり
 
