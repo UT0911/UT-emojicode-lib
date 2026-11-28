@@ -20,6 +20,7 @@ emojicodeで使える関数,closure,データ構造などを保存しておく�
     * [lcm.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/math/lcm.emojic)
     * [max.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/math/max.emojic)
     * [min.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/math/min.emojic)
+    * [pow.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/math/pow.emojic)
 
 * [type](https://github.com/UT0911/UT-emojicode-lib/tree/main/type)
     * [pair.emojic](https://github.com/UT0911/UT-emojicode-lib/blob/main/type/pair.emojic)
